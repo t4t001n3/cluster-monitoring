@@ -48,12 +48,12 @@
   ],
 
   k3s: {
-    enabled: false,
-    master_ip: ['192.168.1.15'],
+    enabled: true,
+    master_ip: ['192.168.2.66'],
   },
 
   // Domain suffix for the ingresses
-  suffixDomain: '192.168.1.15.nip.io',
+  suffixDomain: '192.168.2.66.nip.io',
   // Additional domain suffixes for the ingresses.
   // For example suffixDomain could be an external one and this a local domain.
   additionalDomains: [],

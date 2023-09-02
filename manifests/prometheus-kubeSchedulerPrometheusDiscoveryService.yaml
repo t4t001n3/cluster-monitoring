@@ -11,5 +11,4 @@ spec:
   - name: http-metrics
     port: 10251
     targetPort: 10251
-  selector:
-    component: kube-scheduler
+  selector: {}
